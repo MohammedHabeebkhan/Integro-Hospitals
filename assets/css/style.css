@@ -215,7 +215,7 @@ nav-menu>ul>li>a:before {
 
 .nav-menu a:hover, .nav-menu .active>a, .nav-menu li:hover>a {
   color: #271650;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 .nav-menu .drop-down ul {
@@ -227,7 +227,7 @@ nav-menu>ul>li>a:before {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #effbed;
+  background: rgb(234, 234, 247);
   border-radius: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   /* opacity: 0.97; */
@@ -2100,10 +2100,6 @@ font-size: 54px;
   }
 }
 
-/*--------------------------------------------------------------
-# Doctors
---------------------------------------------------------------*/
-.doctors{background-color:#371e7013};
 
 /*--------------------------------------------------------------
 # Footer
@@ -2849,3 +2845,8 @@ h6{
 .checked {
   color: orange;
 }
+
+/*--------------------------------------------------------------
+# Doctors
+--------------------------------------------------------------*/
+.main{background-color:#371e7013};
