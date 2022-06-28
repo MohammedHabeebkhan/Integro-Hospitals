@@ -1139,14 +1139,14 @@ font-size: 54px;
     padding-bottom: 10px;
 }
 
-.clients img {
+.clients card {
   max-width: 60%;
   opacity: 1;
   transition: 0.3s;
   
 }
 
-#clients img:hover {
+#clients card:hover {
   opacity: 1;
 }
 
@@ -2839,4 +2839,8 @@ h4{
 h6{
   color: #175da2;
   font-size: 18px;
+}
+
+.checked {
+  color: orange;
 }
