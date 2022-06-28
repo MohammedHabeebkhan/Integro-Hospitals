@@ -1188,7 +1188,7 @@ font-size: 54px;
 --------------------------------------------------------------*/
 
 .services {
-  background: #effbed;
+  background: #371e7013;
 }
 
 .services .icon-box {
@@ -1896,7 +1896,7 @@ font-size: 54px;
 
 .contactUs{
    min-height:60vh;
-   background: linear-gradient(0deg, rgba(3,2,2,0.1), rgba(3,2,2,0.9)), url("../img/contactUs.jpg") center center no-repeat;
+   background: linear-gradient(0deg, rgba(3,2,2,0.1), rgba(3,2,2,0.9)), url("../img/contactUs.png") center center no-repeat;
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
    background-position: center;
@@ -1917,8 +1917,9 @@ font-size: 54px;
 }
 
 .contact .contact-info address, .contact .contact-info p {
+  font-size: 14px;
   margin-bottom: 0;
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 
 .contact .contact-info h3 {
@@ -2099,6 +2100,10 @@ font-size: 54px;
   }
 }
 
+/*--------------------------------------------------------------
+# Doctors
+--------------------------------------------------------------*/
+.doctors{background-color:#371e7013};
 
 /*--------------------------------------------------------------
 # Footer
