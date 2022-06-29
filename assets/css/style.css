@@ -1000,6 +1000,31 @@ section {
   margin-bottom: 0;
 }
 
+
+
+/*--------------------------------------------------------------
+# Doctors
+--------------------------------------------------------------*/
+#doctor1{
+  margin-top:7%;
+}
+
+@media screen and (max-width: 440px) and (min-width: 270px) {
+  #doctor1{
+    margin-top:15%;
+  }
+}
+
+@media screen and (max-width: 912px) and (min-width: 540px) {
+  #doctor1{
+    margin-top:10%;
+  }
+}
+
+.doctors{background-color:#371e7013};
+
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1276,102 +1301,6 @@ font-size: 54px;
 }
 
 /*--------------------------------------------------------------
-# Why Us
---------------------------------------------------------------*/
-
-.why-us .box {
-  padding: 50px 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: all ease-in-out 0.3s;
-  height: 350px;
-}
-
-.why-us .box span {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  color: #3498db;
-}
-
-.why-us .box h4 {
-  font-size: 24px;
-  font-weight: 600;
-  padding: 0;
-  margin: 20px 0;
-  color: #2a2a2a;
-}
-
-.why-us .box p {
-  color: #848484;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-}
-
-.why-us .box:hover {
-  background: #3498db;
-  padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(52, 152, 219, 0.9);
-}
-
-.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Trading
---------------------------------------------------------------*/
-
-.trading {
- /* padding: 60px 0;*/
-}
-
-.trading .card-body{padding-top: 12px;}
-.trading .section-title {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.trading img {
-  max-width: 100%;
-  opacity: 1;
-  transition: 0.3s;
-}
-
-#trading img:hover {
-  opacity: 1;
-}
-
-#trading .owl-nav, #trading .owl-dots {
-  /*margin-top: 5px;*/
-  text-align: center;
-}
-
-#trading .owl-dot {
- /* display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd; */
-}
-
-#trading .owl-dot.active {
-  background-color: #18d26e;
-}
-
-@media (max-width: 768px) {
-  .trading img {
-	padding-right:5px;
-    max-width: 100%;
-  }
-  .trading .card-body{padding-left: 1px;}
-}
-
-
-
-
-/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio{background-color:#fff;}
@@ -1630,7 +1559,7 @@ font-size: 54px;
 # Team
 --------------------------------------------------------------*/
 
-.team {
+/* .team {
   background: #fff;
   padding: 40px 0;
 }
@@ -1701,13 +1630,13 @@ font-size: 54px;
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
 
-.pricing .box {
+/* .pricing .box {
   padding: 20px;
   background: #f7f7f7;
   text-align: center;
@@ -1810,12 +1739,12 @@ font-size: 54px;
   background: #fff;
   border-color: #fff;
   color: #5c9f24;
-}
+} */
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-
+/* 
 .faq .faq-list {
   padding: 0 100px;
 }
@@ -1891,7 +1820,7 @@ font-size: 54px;
   .faq .faq-list {
     padding: 0;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
@@ -2694,7 +2623,7 @@ font-size: 54px;
 # About Boxes
 --------------------------------------------------------------*/
 .about-boxes {
-  background: url("../img/about-boxes-bg.jpg") center top no-repeat fixed;
+  /* background: url("../img/about-boxes-bg.jpg") center top no-repeat fixed; */
   background-size: cover;
   padding: 60px 0 30px 0;
   position: relative;
@@ -2849,7 +2778,3 @@ h6{
   color: orange;
 }
 
-/*--------------------------------------------------------------
-# Doctors
---------------------------------------------------------------*/
-.doctors{background-color:#371e7013};
