@@ -219,6 +219,9 @@ nav-menu>ul>li>a:before {
 }
 
 .nav-menu .drop-down ul {
+  /* max-height: 500px; */
+  height:450px;
+overflow-y: scroll;
   display: block;
   position: absolute;
   left: 22px;
