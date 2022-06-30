@@ -1216,11 +1216,12 @@ font-size: 54px;
 --------------------------------------------------------------*/
 
 .services {
+  margin-top: 30px;
   background: #371e7013;
 }
 
 .services .icon-box {
-  height: 320px;
+  height: 365px;
   padding-top: 15px;
   margin-bottom: 20px;
   text-align: center;
@@ -1253,8 +1254,9 @@ font-size: 54px;
 }
 
 .services .icon-box:hover {
-  height: 320px;
+  height: 365px;
   padding-top: 15px;
+  border-radius: 15px;
   box-shadow: 0px 0px 20px 0px rgb(23 93 162 / 90%);
   background: white;
 }
