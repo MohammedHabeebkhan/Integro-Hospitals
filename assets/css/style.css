@@ -1292,6 +1292,7 @@ font-size: 54px;
 .services .description {
   line-height: 24px;
   font-size: 14px;
+  font-family: sans-serif;
   text-align: left;
 }
 
