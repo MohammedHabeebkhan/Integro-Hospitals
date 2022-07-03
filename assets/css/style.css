@@ -1021,7 +1021,18 @@ section {
   }
 }
 
+.doctors_imgs{
+  width:100%; 
+  height:100%; 
+  box-shadow: 0px 0px 10px 0px #b4b6b9;
+}
+
+.doctors_specialization{
+  color:#00a54f;
+}
+
 .doctors{background-color:#371e7013};
+
 
 
 
@@ -1462,7 +1473,7 @@ font-size: 54px;
   right: 0;
   bottom: -70px;
   background: #fff;
-  box-shadow: 0px 0px 10px 0px #DEE2E6;
+  box-shadow: 0px 0px 10px 0px #b4b6b9;
   z-index: 2;
 }
 
