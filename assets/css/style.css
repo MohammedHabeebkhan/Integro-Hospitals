@@ -1,6 +1,6 @@
 /**
 * Version: Appseonit - v1.0.0
-* URL: https://www.secupower-sa.com
+* URL: https://www.integrohospital.com
 * Author: www.appseonit.com
 * License: https://www.appseonit.com
 */
@@ -37,7 +37,7 @@
   
   
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
   color: #444444;
 }
 
@@ -113,10 +113,14 @@ h1, h2, h3, h4, h5, h6 {
 .instagram :hover{
 	color:#fff;
 }
+
 .linkedin :hover{
 	color:#fff;
 }
 
+.social-links .linkedin a{
+  margin-left: 2px;
+  }
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -221,7 +225,7 @@ nav-menu>ul>li>a:before {
 .nav-menu .drop-down ul {
   /* max-height: 500px; */
   height:450px;
-overflow-y: scroll;
+  overflow-y: scroll;
   display: block;
   position: absolute;
   left: 22px;
@@ -757,7 +761,7 @@ nav-menu2>ul>li>a:before {
 
 #hero .carousel-item {
   width: 99%;
-  height: 40vh;
+  height: 60vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1027,12 +1031,21 @@ section {
   box-shadow: 0px 0px 10px 0px #b4b6b9;
 }
 
+.dr_shabana{width:100%; height:94%; background-color: #22254c8c; box-shadow: 0px 0px 10px 0px #b4b6b9;}
+.dr_ramireddy{width:100%; height:84%; box-shadow: 0px 0px 10px 0px #b4b6b9;}
+.dr_sarala{width:100%; height:98%; background-color: #361e70bf; box-shadow: 0px 0px 10px 0px #b4b6b9;}
+@media (min-width: 278px) and (max-width : 1185px){
+  .dr_shabana{ height:100%; }
+  .dr_ramireddy{height:100%;}
+  .dr_sarala{height:100%;}
+}
+
+
 .doctors_specialization{
   color:#00a54f;
 }
 
 .doctors{background-color:#371e7013};
-
 
 
 
@@ -1048,7 +1061,7 @@ section {
    background-size: cover;
 }
 .about .content {
-  background-color: #effbed;
+  /* background-color: #effbed; */
   padding: 30px 0;
 }
 
@@ -1070,16 +1083,24 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
   text-align: left;
+  font-size: 14px;
+  text-align: justify;
 }
 
 .about .image {
   margin-top: 30px;
   background: url("../img/about.jpg") center center no-repeat;
-  background-size: cover;
+  background-size: contain;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
   height: 94%;
   text-align: center;
+}
+
+.about h1{
+  color: #361e70;
+  font-size: 16px;
+  display: inline;
 }
 
 @media (max-width: 768px) {
@@ -1118,7 +1139,14 @@ section {
 }
 
 .about .box p {
-  color: #000;
+  color: #444444;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.about .box li {
+  color: #444444;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -1131,7 +1159,7 @@ section {
   box-shadow: 10px 15px 30px #9172da;
 }
 
-.about .box:hover span, .about .box:hover h4, .about .box:hover p , .about .box:hover ul{
+.about .box:hover span, .about .box:hover h4, .about .box:hover p , .about .box:hover li{
   color: #fff;
 }
 
@@ -1303,8 +1331,8 @@ font-size: 54px;
 .services .description {
   line-height: 24px;
   font-size: 14px;
-  font-family: sans-serif;
-  text-align: left;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1477,8 +1505,14 @@ font-size: 54px;
   z-index: 2;
 }
 
-.portfolio-details .portfolio-info h3 {
+.portfolio-details .portfolio-info h1 {
   font-size: 22px;
+  font-weight: 700;
+  color:#361e70;
+  /* margin-bottom: 0px; */
+}
+
+.portfolio-details .portfolio-info h3 {
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -1488,11 +1522,12 @@ font-size: 54px;
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
+  margin-top: 8px;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
 }
 
 .portfolio-details .portfolio-description {
@@ -1512,7 +1547,7 @@ font-size: 54px;
 }
 
 .portfolio-details .container h2{
-  font-size: 16px;
+  font-size: 22px;
   font-weight:700;
 }
 
@@ -1548,6 +1583,13 @@ font-size: 54px;
     font-weight:700;
   }
   
+  .portfolio-details .portfolio-info h1 {
+    font-size: 16px;
+    font-weight: 700;
+    /* margin-bottom: 20px;
+    padding-bottom: 20px; */
+  }
+
   .portfolio-details .portfolio-info h3 {
     font-size: 16px;
     font-weight: 700;
@@ -1558,7 +1600,7 @@ font-size: 54px;
   .portfolio-details .portfolio-info ul {
     list-style: none;
     padding: 0;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .portfolio-details  .portfolio-description ul {
@@ -1566,6 +1608,86 @@ font-size: 54px;
     list-style: unset;
     padding-left:20px;
   }
+}
+
+
+
+/* Testimonials Section
+--------------------------------*/
+#testimonials {
+  padding: 60px 0;
+}
+
+#testimonials .section-header {
+  margin-bottom: 40px;
+}
+
+#testimonials .testimonial-item {
+  text-align: center;
+}
+
+#testimonials .testimonial-item .testimonial-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+
+#testimonials .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+#testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+}
+
+#testimonials .testimonial-item .quote-sign-left {
+  margin-top: -15px;
+  padding-right: 10px;
+  display: inline-block;
+  width: 37px;
+}
+
+#testimonials .testimonial-item .quote-sign-right {
+  margin-bottom: -15px;
+  padding-left: 10px;
+  display: inline-block;
+  max-width: 100%;
+  width: 37px;
+}
+
+#testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+}
+
+@media (min-width: 992px) {
+  #testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+
+#testimonials .owl-nav, #testimonials .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#testimonials .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#testimonials .owl-dot.active {
+  background-color: #18d26e;
 }
 
 
